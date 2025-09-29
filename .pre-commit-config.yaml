@@ -6,3 +6,8 @@ repos:
         entry: ruff check --fix src/
         language: system
         pass_filenames: false
+      - id: ruff-format
+        name: ruff (format source code)
+        entry: ruff format src/
+        language: system
+        pass_filenames: false
