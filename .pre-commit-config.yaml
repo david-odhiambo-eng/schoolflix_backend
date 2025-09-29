@@ -5,6 +5,4 @@ repos:
         name: ruff (fix style issues)
         entry: ruff check --fix src/
         language: system
-        types: [python]
         pass_filenames: false
-
